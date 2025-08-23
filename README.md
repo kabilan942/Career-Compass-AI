@@ -48,13 +48,13 @@ To use the app without rebuilding embeddings from scratch, download the prebuilt
 📥 [Download vector_store from Google Drive](https://drive.google.com/drive/folders/1A2ibtHlumIechILpXJdSS4YTl2QbDaWi?usp=sharing)
 
 After downloading place the folder inside the project directory:
-
+```
 project-root/
 ├── src/
 ├── main.py
 ├── vector_store/ <-- place it here
 └── ...
-
+```
 ## ⚙️ Setup
 
 1. Clone the repo:  
@@ -72,5 +72,6 @@ This project is designed in the context of **India’s JEE exam** and the **JoSA
 ## License
 
 This project is licensed under the [MPL 2.0 License](./LICENSE).
+
 
 
