@@ -42,54 +42,52 @@
 
 ## ⚙️ Setup
 
-1. Clone the repo:  
+1. **Clone the repo**
 
    ```bash
    git clone https://github.com/your-username/Career-Compass-AI.git
    cd Career-Compass-AI
    ```
-2. Create a virtual environment (recommended)
+2. **Create a virtual environment (Recommended)**
 
    ```bash
    python -m venv venv
    source venv/bin/activate   # Mac/Linux
    venv\Scripts\activate      # Windows
    ```
-3. Install dependencies
+3. **Install dependencies**
 
    ```bash
    pip install -r requirements.txt
    ```
-4. Set up environment variables
+4. **Set up environment variables**
 
-Create a `.env` file in the root folder and add your keys:
+* Create a `.env` file in the root folder and add your keys:
+* 
    ```bash
    GROQ_API_KEY=your_groq_api_key
    HF_TOKEN=your_huggingface_token
    ```
-5. Download vector store
+5. **Download vector store**
 
 * The vector store is not included in this repository due to GitHub’s file size limits.  
 * To use the app without rebuilding embeddings from scratch, download the prebuilt vector store:
-
-📥 [Download vector_store from Google Drive](https://drive.google.com/drive/folders/1A2ibtHlumIechILpXJdSS4YTl2QbDaWi?usp=sharing)
-
-Place the extracted `vector_store/` folder inside the project root (alongside `main.py`).
-
-Final structure:
-```
-Career-Compass-AI/
-├── assets/
-├── data/
-├── prompts/
-├── src/
-├── vector_store/   <-- place it here
-├── LICENSE
-├── README.md
-├── main.py
-├── requirements.txt
-```
-6. Run the app
+    📥 [Download vector_store from Google Drive](https://drive.google.com/drive/folders/1A2ibtHlumIechILpXJdSS4YTl2QbDaWi?usp=sharing)
+* Place the extracted `vector_store/` folder inside the project root (alongside `main.py`).
+* Final structure:
+    ```
+    Career-Compass-AI/
+    ├── assets/
+    ├── data/
+    ├── prompts/
+    ├── src/
+    ├── vector_store/   <-- place it here
+    ├── LICENSE
+    ├── README.md
+    ├── main.py
+    ├── requirements.txt
+    ```
+6. **Run the app**
 
    ```bash
    streamlit run main.py
@@ -102,6 +100,7 @@ This project is designed in the context of **India’s JEE exam** and the **JoSA
 ## License
 
 This project is licensed under the [MPL 2.0 License](./LICENSE).
+
 
 
 
