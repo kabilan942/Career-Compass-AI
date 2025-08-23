@@ -9,8 +9,6 @@
 ## 📌 Project Poster
 ![Poster Thumbnail](assets/poster.png)
 
-👉 Scroll down for the **full poster** in high resolution.
-
 ---
 
 ## 🚀 Features
@@ -23,7 +21,7 @@
    *Discover courses, careers, pay, and opportunities.*
 
 3. **College Filter & Map**  
-   *Smart filters + interactive map for institute choices.*
+   *Match Colleges to your profile: Smart filters + interactive map for institute choices.*
 
 4. **College–Branch Insight Hub**  
    *Deep insights & comparisons to guide your choice.*
@@ -74,4 +72,5 @@ This project is designed in the context of **India’s JEE exam** and the **JoSA
 ## License
 
 This project is licensed under the [MPL 2.0 License](./LICENSE).
+
 
