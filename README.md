@@ -63,7 +63,7 @@
 4. **Set up environment variables**
 
 * Create a `.env` file in the root folder and add your keys:
-* 
+ 
    ```bash
    GROQ_API_KEY=your_groq_api_key
    HF_TOKEN=your_huggingface_token
@@ -72,6 +72,7 @@
 
 * The vector store is not included in this repository due to GitHub’s file size limits.  
 * To use the app without rebuilding embeddings from scratch, download the prebuilt vector store:
+ 
     📥 [Download vector_store](https://drive.google.com/drive/folders/1A2ibtHlumIechILpXJdSS4YTl2QbDaWi?usp=sharing)
 * Place the extracted `vector_store/` folder inside the project root (alongside `main.py`).
 * Final structure:
@@ -100,6 +101,7 @@ This project is designed in the context of **India’s JEE exam** and the **JoSA
 ## License
 
 This project is licensed under the [MPL 2.0 License](./LICENSE).
+
 
 
 
