@@ -1,4 +1,6 @@
-# Career Compass AI: Democratizing College Guidance for Every Student
+# Career Compass AI
+
+## Democratizing College Guidance for Every Student
 
 *Your personalized companion for discovering the right branch, exploring best-fit colleges, and making smart, informed decisions—all in one place*
 
@@ -72,3 +74,4 @@ This project is designed in the context of **India’s JEE exam** and the **JoSA
 ## License
 
 This project is licensed under the [MPL 2.0 License](./LICENSE).
+
