@@ -40,39 +40,28 @@
 
 ---
 
-## 🔗 Download Prebuilt Vector Store
-
-The vector store is not included in this repository due to GitHub’s file size limits.  
-To use the app without rebuilding embeddings from scratch, download the prebuilt vector store:
-
-📥 [Download vector_store from Google Drive](https://drive.google.com/drive/folders/1A2ibtHlumIechILpXJdSS4YTl2QbDaWi?usp=sharing)
-
-After downloading place the folder inside the project directory:
-```
-project-root/
-├── src/
-├── main.py
-├── vector_store/ <-- place it here
-└── ...
-```
 ## ⚙️ Setup
 
 1. Clone the repo:  
+
    ```bash
    git clone https://github.com/your-username/Career-Compass-AI.git
    cd Career-Compass-AI
    ```
 2. Create a virtual environment (recommended)
+
    ```bash
    python -m venv venv
    source venv/bin/activate   # Mac/Linux
    venv\Scripts\activate      # Windows
    ```
 3. Install dependencies
+
    ```bash
    pip install -r requirements.txt
    ```
 4. Set up environment variables
+
 Create a `.env` file in the root folder and add your keys:
    ```bash
    GROQ_API_KEY=your_groq_api_key
@@ -80,8 +69,8 @@ Create a `.env` file in the root folder and add your keys:
    ```
 5. Download vector store
 
-The vector store is not included in this repository due to GitHub’s file size limits.  
-To use the app without rebuilding embeddings from scratch, download the prebuilt vector store:
+* The vector store is not included in this repository due to GitHub’s file size limits.  
+* To use the app without rebuilding embeddings from scratch, download the prebuilt vector store:
 
 📥 [Download vector_store from Google Drive](https://drive.google.com/drive/folders/1A2ibtHlumIechILpXJdSS4YTl2QbDaWi?usp=sharing)
 
@@ -101,6 +90,7 @@ Career-Compass-AI/
 ├── requirements.txt
 ```
 6. Run the app
+
    ```bash
    streamlit run main.py
    ```   
@@ -112,6 +102,7 @@ This project is designed in the context of **India’s JEE exam** and the **JoSA
 ## License
 
 This project is licensed under the [MPL 2.0 License](./LICENSE).
+
 
 
 
