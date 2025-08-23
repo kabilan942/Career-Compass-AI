@@ -1,0 +1,17 @@
+python-dotenv 
+folium
+streamlit
+streamlit_folium
+langchain
+langchain_core
+langchain_community
+langchain_groq
+langchain_huggingface
+langgraph
+faiss-cpu
+nltk
+unstructured[all-docs]
+pillow
+lxml
+pydantic
+poppler-utils
