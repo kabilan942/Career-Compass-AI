@@ -60,7 +60,8 @@ project-root/
 1. Clone the repo:  
    ```bash
    git clone https://github.com/your-username/careercompass.git
-   cd careercompass```
+   cd careercompass
+   ```
 
 
 
@@ -72,6 +73,7 @@ This project is designed in the context of **India’s JEE exam** and the **JoSA
 ## License
 
 This project is licensed under the [MPL 2.0 License](./LICENSE).
+
 
 
 
