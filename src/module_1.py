@@ -16,7 +16,7 @@ llm = ChatGroq(model=groq_model_name, groq_api_key=groq_api_key)
 
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))          # current directory
 TRUNK_DIR = os.path.abspath(os.path.join(CURRENT_DIR, '..'))      # Move up one level to reach the trunk
-DATA_FILE = os.path.join(TRUNK_DIR, 'data', 'josaa_seats_aggregated_16_02.csv')
+DATA_FILE = os.path.join(TRUNK_DIR, 'data', 'josaa_seats_aggregated.csv')
 df = pd.read_csv(DATA_FILE)
 clusters = df['Branch Cluster'].unique()
 
@@ -198,4 +198,5 @@ def run():
         ai_recom = get_top_subgroups(user_answers)
 
         st.subheader("Recommended Branch Clusters:")
+
         st.write(ai_recom)
