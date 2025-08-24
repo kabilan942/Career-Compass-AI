@@ -8,7 +8,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
     menu_items={
         'About': "This app helps you explore colleges and branches under JoSAA in India.",
-        'Report a bug': "mailto:support@example.com"
+        'Report a bug': "mailto:kabilanp942@gmail.com"
     }
 )
 
@@ -30,3 +30,4 @@ if app_choice == "College–Branch Insight Hub":
     module_4.run()
 elif app_choice == "JEE Docs Chat":
     module_5.run()
+
