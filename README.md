@@ -32,11 +32,16 @@
 ---
 
 ## 🛠️ Tech Stack
-- **Core**: Python  
-- **LLM & AI Frameworks**: LangChain, LangGraph, Hugging Face, Groq Cloud (API)  
-- **Vector Search**: FAISS  
-- **Frontend / UI**: Streamlit, Folium (for interactive maps)  
-- **Data Handling**: Pandas, NumPy, Unstructured  
+
+- **Python** → Core programming language for all modules.
+- **LangChain & LangGraph** → Orchestrates LLM-powered workflows, chains, and tool use.
+- **Groq Cloud (API)** → Provides fast LLM inference for question answering and recommendations.
+- **Hugging Face Hub (HF Token)** → Access to open-source models and embeddings.
+- **FAISS** → Vector database for semantic search (used in JEE Docs Chat and Branch Explorer).
+- **Unstructured** → Preprocessing PDFs & documents (used to parse JEE official documents).
+- **Pandas & NumPy** → Data cleaning and transformations for college cutoff data.
+- **Streamlit** → Frontend UI to integrate all modules into a single app.
+- **Folium** → Interactive map visualization for College Filter & Map.
 
 ---
 
@@ -101,6 +106,7 @@ This project is designed in the context of **India’s JEE exam** and the **JoSA
 ## License
 
 This project is licensed under the [MPL 2.0 License](./LICENSE).
+
 
 
 
