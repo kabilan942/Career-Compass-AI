@@ -9,7 +9,7 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
-# load the GROQ API Key and Hugging Face Token
+# load the GROQ API Key
 groq_api_key = os.getenv("GROQ_API_KEY")
 
 groq_model_name = "llama3-70b-8192"
@@ -197,4 +197,5 @@ def run():
             <p>{desc}</p>
         </div>
         """, unsafe_allow_html=True)
+
     st.markdown("</div>", unsafe_allow_html=True)
