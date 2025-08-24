@@ -11,7 +11,7 @@ import pandas as pd
 from dotenv import load_dotenv
 load_dotenv()
 
-# load the GROQ API Key and Hugging Face Token
+# load the GROQ API Key
 groq_api_key = os.getenv("GROQ_API_KEY")
 
 # LLM setup using Groq
@@ -158,4 +158,5 @@ def run():
                     "josaa_info2": detailed_info2
                 })
                 st.write("### Comparison Result")
+
                 st.markdown(response.content)
