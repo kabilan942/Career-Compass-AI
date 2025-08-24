@@ -40,8 +40,8 @@
 - **FAISS** → Vector database for semantic search (used in JEE Docs Chat and Branch Explorer).
 - **Unstructured** → Preprocessing PDFs & documents (used to parse JEE official documents).
 - **Pandas & NumPy** → Data cleaning and transformations for college cutoff data.
-- **Selenium** – Automating JoSAA website navigation (dynamic content scraping)  
-- **BeautifulSoup** – Parsing & extracting structured data from HTML  
+- **Selenium** → Automating JoSAA website navigation (dynamic content scraping)  
+- **BeautifulSoup** → Parsing & extracting structured data from HTML  
 - **Streamlit** → Frontend UI to integrate all modules into a single app.
 - **Folium** → Interactive map visualization for College Filter & Map.
 
@@ -108,6 +108,7 @@ This project is designed in the context of **India’s JEE exam** and the **JoSA
 ## License
 
 This project is licensed under the [MPL 2.0 License](./LICENSE).
+
 
 
 
