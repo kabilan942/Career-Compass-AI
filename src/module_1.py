@@ -9,7 +9,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from dotenv import load_dotenv
 load_dotenv()
 
-# load the GROQ API Key and Hugging Face Token
+# load the GROQ API Key
 groq_api_key = os.getenv("GROQ_API_KEY")
 groq_model_name = "llama3-70b-8192"
 llm = ChatGroq(model=groq_model_name, groq_api_key=groq_api_key)
@@ -200,3 +200,4 @@ def run():
         st.subheader("Recommended Branch Clusters:")
 
         st.write(ai_recom)
+
